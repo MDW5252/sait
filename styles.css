@@ -15,40 +15,31 @@ header {
     text-align: center;
 }
 
-/* Стилизация выпадающего меню в правом углу */
-nav {
-    position: relative;
-}
+/* Стили навигационного меню */
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: #444;
-    text-align: right; /* Выравнивание меню по правой стороне */
-    display: none; /* Меню по умолчанию скрыто */
-    position: absolute;
-    right: 0;
-}
-
-nav:hover ul {
-    display: block; /* Показывать меню при наведении */
+    background-color: #444; /* Темный фон для меню */
+    text-align: center;
 }
 
 nav ul li {
-    display: block; /* Пункты меню вертикально */
+    display: inline; /* Элементы меню в ряд */
 }
 
 nav ul li a {
     text-decoration: none;
     padding: 10px 25px;
-    display: block; /* Блочное отображение для полной области наведения */
-    color: #fff;
+    display: inline-block;
+    color: #fff; /* Белый текст ссылок */
+    transition: background-color 0.3s; /* Плавное изменение фона при наведении */
 }
 
+/* Изменение цвета фона ссылок при наведении */
 nav ul li a:hover {
-    text-decoration: none; /* Убрать подчеркивание при наведении */
+    background-color: #555;
 }
-
 
 /* Стилизация основного контента */
 main {
@@ -82,22 +73,3 @@ a {
 a:hover {
     text-decoration: underline; /* Добавляем подчеркивание при наведении */
 }
-/* Стили для ссылок соцсетей в виде кнопок-рисунков */
-.social-links {
-    display: flex; /* Отображение ссылок в ряд */
-    justify-content: center; /* Выравнивание по центру */
-    padding: 20px 0;
-}
-
-.social-links a {
-    display: inline-block;
-    margin: 0 10px; /* Отступы между иконками */
-    width: 40px; /* Ширина иконки */
-    height: 40px; /* Высота иконки */
-    background-size: cover; /* Фон заполняет блок */
-}
-
-/* Пример ссылок социальных сетей с иконками */
-.social-links a.facebook { background-image: url('path/to/facebook-icon.png'); }
-.social-links a.twitter { background-image: url('path/to/twitter-icon.png'); }
-.social-links a.instagram { background-image: url('path/to/instagram-icon.png'); }
