@@ -14,7 +14,6 @@ header {
     padding: 20px 0;
     text-align: center;
 }
-/* Общие стили для body и header сохраняем без изменений */
 
 /* Стилизация выпадающего меню в правом углу */
 nav {
@@ -50,6 +49,39 @@ nav ul li a:hover {
     text-decoration: none; /* Убрать подчеркивание при наведении */
 }
 
+
+/* Стилизация основного контента */
+main {
+    padding: 20px;
+    background-color: #fff; /* Белый цвет фона для контента */
+    margin: 20px auto;
+    max-width: 1000px; /* Максимальная ширина контента */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Тень вокруг контента */
+}
+
+/* Стилизация кнопок и ссылок */
+button, .button {
+    background-color: #008cba; /* Синий цвет кнопок */
+    color: #fff; /* Белый текст на кнопках */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+button:hover, .button:hover {
+    background-color: #005f73; /* Чуть более темный синий при наведении */
+}
+
+a {
+    color: #008cba; /* Синий цвет для обычных ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+a:hover {
+    text-decoration: underline; /* Добавляем подчеркивание при наведении */
+}
 /* Стили для ссылок соцсетей в виде кнопок-рисунков */
 .social-links {
     display: flex; /* Отображение ссылок в ряд */
@@ -69,5 +101,3 @@ nav ul li a:hover {
 .social-links a.facebook { background-image: url('path/to/facebook-icon.png'); }
 .social-links a.twitter { background-image: url('path/to/twitter-icon.png'); }
 .social-links a.instagram { background-image: url('path/to/instagram-icon.png'); }
-
-
