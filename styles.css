@@ -28,12 +28,11 @@ font-size:36px;
 /* Стили навигационного меню */
 
 .menu {
-            float: right !important;
+            float: right ;
             position: relative;
-    top:0;
         }
 .menu:last-child {
-            margin-right: 0px !important;
+            margin-right: 0px;
             padding-top: 0px ;
             position: relative;
         }
@@ -109,8 +108,9 @@ a {
 
 p{
     font-size:25px;
-    color:#A9A9A9;
+    color:#000000;
     font-family: Courier, sans-serif;
+    font-weight:700
 
 }
 footer{
