@@ -5,6 +5,7 @@ body {
     font-size: 10px
     padding: 0;
     background:url(https://static.tildacdn.com/tild6566-6264-4632-b461-383865386239/YCLIENTS.jpeg); 
+    opacity:0.7;
     color: #fff; /* Цвет текста */
 }
 }
@@ -24,7 +25,10 @@ h1{
   color: #fff;
 font-size:36px;
     text-size:30px;
-    .menu {
+    
+}
+/* Стили навигационного меню */
+.menu {
             float: right ;
             position: relative;
         }
@@ -68,9 +72,6 @@ font-size:36px;
 .menu li:hover ul{
   display:block;
 }
-}
-/* Стили навигационного меню */
-
 
 /* Изменение цвета фона ссылок при наведении */
 nav ul li a:hover {
