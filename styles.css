@@ -6,7 +6,15 @@ body {
     padding: 0;
     background:url(https://static.tildacdn.com/tild6566-6264-4632-b461-383865386239/YCLIENTS.jpeg); 
     color: #fff; /* Цвет текста */
-     
+      -webkit-text-stroke: 1px black;
+    text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+  
+}
 }
 }
 
@@ -106,4 +114,6 @@ a {
     text-decoration: none; /* Убираем подчеркивание у ссылок */
 }
 
-
+p{
+    font-size:25px
+}
