@@ -24,10 +24,7 @@ h1{
   color: #fff;
 font-size:36px;
     text-size:30px;
-}
-/* Стили навигационного меню */
-
-.menu {
+    .menu {
             float: right ;
             position: relative;
         }
@@ -71,6 +68,10 @@ font-size:36px;
 .menu li:hover ul{
   display:block;
 }
+}
+/* Стили навигационного меню */
+
+
 /* Изменение цвета фона ссылок при наведении */
 nav ul li a:hover {
     background-color: #6495ED;
