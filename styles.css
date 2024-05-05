@@ -2,9 +2,10 @@
 body {
     font-family: Courier, sans-serif;
     margin: 0;
+    font-size: 2rem
     padding: 0;
     background:url(https://static.tildacdn.com/tild6566-6264-4632-b461-383865386239/YCLIENTS.jpeg); 
-    color: #333; /* Цвет текста */
+    color: #fff; /* Цвет текста */
 }
 
 /* Стилизация шапки */
