@@ -38,6 +38,7 @@ font-size:36px;
 .menu {
             float: right !important;
             position: relative;
+    top:0;
         }
 .menu:last-child {
             margin-right: 0px !important;
@@ -119,4 +120,8 @@ p{
     color:#fff;
     font-family: Courier, sans-serif;
 
+}
+footer{
+    background-color: #87CEEB;
+  color: #fff;
 }
