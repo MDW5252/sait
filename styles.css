@@ -4,8 +4,7 @@ body {
     margin: 0;
     font-size: 10px
     padding: 0;
-    background:url(https://static.tildacdn.com/tild6566-6264-4632-b461-383865386239/YCLIENTS.jpeg); 
-    opacity:0.7;
+    background:url(https://yandex.ru/images/search?img_url=https%3A%2F%2Fkartinki.pics%2Fuploads%2Fposts%2F2021-07%2F1625573726_15-kartinkin-com-p-fon-minimalizm-programmirovanie-krasivie-f-15.jpg&lr=46&pos=1&rpt=simage&source=serp&text=%D1%84%D0%BE%D0%BD%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D0%B0); 
     color: #fff; /* Цвет текста */
 }
 }
@@ -90,8 +89,8 @@ main {
 
 /* Стилизация кнопок и ссылок */
 button, .button {
-    background-color: #008cba; /* Синий цвет кнопок */
-    color: #fff; /* Белый текст на кнопках */
+    background-color: #008cba; 
+    color: #fff; 
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -110,7 +109,7 @@ a {
 
 p{
     font-size:25px;
-    color:#000000;
+    color:#fff;
     font-family: Courier, sans-serif;
     font-weight:700
 
